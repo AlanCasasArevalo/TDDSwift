@@ -13,6 +13,7 @@
 		511AC67D2364BA0F007277A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 511AC67C2364BA0F007277A6 /* Assets.xcassets */; };
 		511AC6802364BA0F007277A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 511AC67E2364BA0F007277A6 /* LaunchScreen.storyboard */; };
 		511AC6972364BA98007277A6 /* EuroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511AC6962364BA98007277A6 /* EuroTests.swift */; };
+		511AC69E2364BE9A007277A6 /* Euro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511AC69D2364BE9A007277A6 /* Euro.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		511AC6862364BA0F007277A6 /* TDDSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDDSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		511AC68C2364BA0F007277A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		511AC6962364BA98007277A6 /* EuroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EuroTests.swift; sourceTree = "<group>"; };
+		511AC69D2364BE9A007277A6 /* Euro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Euro.swift; path = ../../../TDDObjectiveC/TDDObjectiveC/Models/Euro.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		511AC6742364BA0E007277A6 /* TDDSwift */ = {
 			isa = PBXGroup;
 			children = (
+				511AC69C2364BE83007277A6 /* Models */,
 				511AC6752364BA0E007277A6 /* AppDelegate.swift */,
 				511AC6772364BA0E007277A6 /* ViewController.swift */,
 				511AC6792364BA0E007277A6 /* Main.storyboard */,
@@ -100,6 +103,14 @@
 			isa = PBXGroup;
 			children = (
 				511AC6962364BA98007277A6 /* EuroTests.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		511AC69C2364BE83007277A6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				511AC69D2364BE9A007277A6 /* Euro.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -208,6 +219,7 @@
 			files = (
 				511AC6782364BA0E007277A6 /* ViewController.swift in Sources */,
 				511AC6762364BA0E007277A6 /* AppDelegate.swift in Sources */,
+				511AC69E2364BE9A007277A6 /* Euro.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
