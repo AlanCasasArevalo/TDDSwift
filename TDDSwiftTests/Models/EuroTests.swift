@@ -15,6 +15,6 @@ class EuroTests: XCTestCase {
         let euro = Euro(initWithAmount: 5)
         let total = euro.times(multiplier: 2)
         
-        XCTAssertEqual(total, 10, "5*2 should be 10")
+        XCTAssertEqual(total.amount, 10, "5*2 should be 10")
     }
 }
